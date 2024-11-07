@@ -31,7 +31,7 @@ const transporter = nodemailer.createTransport({
 
 app.post('/message',(req,res)=>{
      if (req.method === 'OPTIONS') {
-    res.status(200).end()
+    res.status(200).end();
   
   }
 try {
